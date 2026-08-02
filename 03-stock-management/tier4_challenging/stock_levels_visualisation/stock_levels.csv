@@ -1,0 +1,151 @@
+date,item,stock_level
+2026-07-01,Coffee Beans,30
+2026-07-01,Milk,40
+2026-07-01,Muffins,20
+2026-07-01,Napkins,25
+2026-07-01,Oat Milk,15
+2026-07-02,Coffee Beans,28
+2026-07-02,Milk,34
+2026-07-02,Muffins,17
+2026-07-02,Napkins,22
+2026-07-02,Oat Milk,9
+2026-07-03,Coffee Beans,26
+2026-07-03,Milk,31
+2026-07-03,Muffins,14
+2026-07-03,Napkins,19
+2026-07-03,Oat Milk,7
+2026-07-04,Coffee Beans,22
+2026-07-04,Milk,26
+2026-07-04,Muffins,12
+2026-07-04,Napkins,16
+2026-07-04,Oat Milk,5
+2026-07-05,Coffee Beans,19
+2026-07-05,Milk,40
+2026-07-05,Muffins,9
+2026-07-05,Napkins,14
+2026-07-05,Oat Milk,0
+2026-07-06,Coffee Beans,16
+2026-07-06,Milk,33
+2026-07-06,Muffins,20
+2026-07-06,Napkins,11
+2026-07-06,Oat Milk,15
+2026-07-07,Coffee Beans,30
+2026-07-07,Milk,28
+2026-07-07,Muffins,18
+2026-07-07,Napkins,8
+2026-07-07,Oat Milk,11
+2026-07-08,Coffee Beans,28
+2026-07-08,Milk,25
+2026-07-08,Muffins,16
+2026-07-08,Napkins,6
+2026-07-08,Oat Milk,9
+2026-07-09,Coffee Beans,26
+2026-07-09,Milk,40
+2026-07-09,Muffins,14
+2026-07-09,Napkins,25
+2026-07-09,Oat Milk,5
+2026-07-10,Coffee Beans,21
+2026-07-10,Milk,33
+2026-07-10,Muffins,10
+2026-07-10,Napkins,23
+2026-07-10,Oat Milk,0
+2026-07-11,Coffee Beans,19
+2026-07-11,Milk,30
+2026-07-11,Muffins,20
+2026-07-11,Napkins,21
+2026-07-11,Oat Milk,15
+2026-07-12,Coffee Beans,17
+2026-07-12,Milk,24
+2026-07-12,Muffins,17
+2026-07-12,Napkins,20
+2026-07-12,Oat Milk,10
+2026-07-13,Coffee Beans,30
+2026-07-13,Milk,40
+2026-07-13,Muffins,15
+2026-07-13,Napkins,19
+2026-07-13,Oat Milk,8
+2026-07-14,Coffee Beans,27
+2026-07-14,Milk,33
+2026-07-14,Muffins,12
+2026-07-14,Napkins,16
+2026-07-14,Oat Milk,4
+2026-07-15,Coffee Beans,24
+2026-07-15,Milk,28
+2026-07-15,Muffins,11
+2026-07-15,Napkins,14
+2026-07-15,Oat Milk,0
+2026-07-16,Coffee Beans,22
+2026-07-16,Milk,21
+2026-07-16,Muffins,20
+2026-07-16,Napkins,13
+2026-07-16,Oat Milk,15
+2026-07-17,Coffee Beans,19
+2026-07-17,Milk,40
+2026-07-17,Muffins,19
+2026-07-17,Napkins,25
+2026-07-17,Oat Milk,9
+2026-07-18,Coffee Beans,14
+2026-07-18,Milk,33
+2026-07-18,Muffins,16
+2026-07-18,Napkins,24
+2026-07-18,Oat Milk,7
+2026-07-19,Coffee Beans,30
+2026-07-19,Milk,29
+2026-07-19,Muffins,12
+2026-07-19,Napkins,23
+2026-07-19,Oat Milk,3
+2026-07-20,Coffee Beans,25
+2026-07-20,Milk,26
+2026-07-20,Muffins,9
+2026-07-20,Napkins,20
+2026-07-20,Oat Milk,0
+2026-07-21,Coffee Beans,21
+2026-07-21,Milk,40
+2026-07-21,Muffins,20
+2026-07-21,Napkins,19
+2026-07-21,Oat Milk,15
+2026-07-22,Coffee Beans,19
+2026-07-22,Milk,36
+2026-07-22,Muffins,18
+2026-07-22,Napkins,16
+2026-07-22,Oat Milk,12
+2026-07-23,Coffee Beans,16
+2026-07-23,Milk,31
+2026-07-23,Muffins,15
+2026-07-23,Napkins,14
+2026-07-23,Oat Milk,9
+2026-07-24,Coffee Beans,11
+2026-07-24,Milk,28
+2026-07-24,Muffins,13
+2026-07-24,Napkins,11
+2026-07-24,Oat Milk,5
+2026-07-25,Coffee Beans,30
+2026-07-25,Milk,40
+2026-07-25,Muffins,9
+2026-07-25,Napkins,25
+2026-07-25,Oat Milk,2
+2026-07-26,Coffee Beans,26
+2026-07-26,Milk,37
+2026-07-26,Muffins,20
+2026-07-26,Napkins,23
+2026-07-26,Oat Milk,15
+2026-07-27,Coffee Beans,23
+2026-07-27,Milk,31
+2026-07-27,Muffins,16
+2026-07-27,Napkins,21
+2026-07-27,Oat Milk,9
+2026-07-28,Coffee Beans,20
+2026-07-28,Milk,26
+2026-07-28,Muffins,14
+2026-07-28,Napkins,18
+2026-07-28,Oat Milk,7
+2026-07-29,Coffee Beans,16
+2026-07-29,Milk,40
+2026-07-29,Muffins,11
+2026-07-29,Napkins,16
+2026-07-29,Oat Milk,1
+2026-07-30,Coffee Beans,14
+2026-07-30,Milk,35
+2026-07-30,Muffins,9
+2026-07-30,Napkins,13
+2026-07-30,Oat Milk,0

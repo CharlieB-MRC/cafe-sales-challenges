@@ -1,0 +1,20 @@
+# Virtual environment folders — never commit these, everyone makes their own
+venv/
+.venv/
+env/
+
+# Python "compiled" cache files — Python creates these automatically, ignore them
+__pycache__/
+*.pyc
+
+# Editor / OS junk files
+.DS_Store
+.vscode/
+.idea/
+
+# Test cache
+.pytest_cache/
+
+# Output files students might generate while testing (receipts, exports, etc.)
+*.tmp
+output/

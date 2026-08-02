@@ -1,0 +1,9 @@
+name,quantity,low_stock_threshold,target_stock
+Coffee Beans,12,10,30
+Milk,20,15,40
+Muffins,15,5,20
+Napkins,8,10,25
+Tea Bags,5,10,20
+Sugar Sachets,2,10,25
+Cups,30,15,40
+Oat Milk,3,5,15

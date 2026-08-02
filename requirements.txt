@@ -1,0 +1,15 @@
+# ☕ The Trendiest Café — Python packages
+#
+# This file lists every extra "add-on" (called a package or library) that
+# the challenges in this repository need. You don't need to understand
+# every line right now — just know that running:
+#
+#       pip install -r requirements.txt
+#
+# will read this file and install everything in it for you, all in one go.
+# See the main README.md for the full step-by-step setup instructions.
+
+pandas==2.2.2         # for loading and working with tables of data (like a spreadsheet, in code)
+matplotlib==3.9.0      # for drawing charts and graphs
+pytest==8.2.2          # for running the automatic checks ("tests") included with some challenges
+faker==25.8.0          # for generating pretend (fake) customer names and data to practise with
