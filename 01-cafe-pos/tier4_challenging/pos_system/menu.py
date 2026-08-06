@@ -21,6 +21,7 @@ questions about what's available and how much things cost.
 
 import json
 import os
+from pathlib import Path
 
 
 class Menu:
@@ -35,8 +36,7 @@ class Menu:
             with open(data_path) as f:
                 self.items = json.load(f)
         """
-        # TODO: implement this method
-        with open("menu_data.json") as f:
+        with open( Path(__file__).resolve().parent / "menu_data.json", "r" ) as f:
             self.items = json.load(f)
 
     def has_item(self, item_name):
