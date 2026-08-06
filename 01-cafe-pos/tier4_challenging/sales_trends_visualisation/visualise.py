@@ -34,8 +34,7 @@ def plot_best_sellers(df):
     Hint:
         totals = df.groupby("item")["quantity"].sum().sort_values(ascending=False)
     """
-    # TODO: implement this function
-    pass
+    
 
 
 def plot_revenue_by_hour(df):
