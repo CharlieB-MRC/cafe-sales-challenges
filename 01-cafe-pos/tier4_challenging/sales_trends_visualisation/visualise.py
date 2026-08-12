@@ -32,9 +32,19 @@ def plot_best_sellers(df):
       6. Call plt.tight_layout() so nothing gets cut off.
     """
 
-    totals = df.groupby("item")["quantity"].sum().sort_values(ascending=False)
     
-    plt.bar( df['item'].tolist(), totals )
+    totals = df.groupby("item")["quantity"].sum().sort_values(ascending=False)
+    AxisPowers = totals.index.to_list()
+    totals = totals.to_list()
+
+    fig, ax = plt.subplots()
+
+    ax.bar(AxisPowers, totals, 0.5, label='Online', color='teal')
+
+    # Fix X-axis labels over the adjusted groups
+    #ax.set_xticks(x)
+    #ax.set_xticklabels(categories)
+
     plt.title("The Trendiest — Best Sellers This Week")
     plt.xlabel('Item')
     plt.ylabel('Total Quantity Sold') 
@@ -57,11 +67,17 @@ def plot_revenue_by_hour(df):
       4. Add a title ("The Trendiest — Revenue by Hour of Day"), and axis
          labels ("Hour", "Total Revenue ($)").
       5. Call plt.tight_layout().
-    """
+    """   
     totals = df.groupby("hour")["revenue"].sum().sort_values(ascending=False)
-    
-    plt.bar( df['hour'].tolist(), totals )
+    AxisPowers = totals.index.to_list()
+    totals = totals.to_list()
+
+    fig, ax = plt.subplots()
+
+    ax.bar(AxisPowers, totals, 0.5, label='Online', color='teal')
+
     plt.title("The Trendiest — Revenue by Hour of Day")
     plt.xlabel('Hour')
     plt.ylabel('Total Revenue ($)') 
     plt.tight_layout()
+
