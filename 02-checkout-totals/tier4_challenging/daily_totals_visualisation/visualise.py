@@ -75,5 +75,22 @@ def plot_average_by_day_of_week(df):
       5. Rotate the x-axis labels 45 degrees: plt.xticks(rotation=45, ha="right")
       6. Call plt.tight_layout().
     """
-    # TODO: implement this function
-    pass
+    day_order = ["Monday", "Tuesday", "Wednesday", "Thursday",
+                "Friday", "Saturday", "Sunday"]
+    averages = df.groupby("day_of_week")["total_sales"].mean()
+    averages = averages.reindex(day_order)
+
+    rolling = df["total_sales"].rolling(7).mean()
+    rolling = rolling.reindex(day_order)
+    
+    fig, ax = plt.subplots()
+
+    ax.bar(day_order, averages, 0.5, label='Online', color='teal')
+    
+
+    plt.title("The Trendiest — Average Revenue by Day of Week")
+    plt.xlabel("Day of Week")
+    plt.ylabel("Average Total Sales ($)") 
+    plt.xticks(rotation=45,ha="right")
+    plt.legend()
+    plt.tight_layout()

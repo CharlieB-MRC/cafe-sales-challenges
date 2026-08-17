@@ -27,7 +27,7 @@ from pathlib import Path
 class Menu:
     """Loads and provides access to the café's menu."""
 
-    def __init__(self, data_path="menu_data.json"):
+    def __init__(self, data_path="/workspaces/cafe-sales-challenges/01-cafe-pos/tier4_challenging/pos_system/menu_data.json"):
         """
         Load the menu from the JSON file at data_path into self.items,
         a dictionary of {item_name: price}.
@@ -36,7 +36,7 @@ class Menu:
             with open(data_path) as f:
                 self.items = json.load(f)
         """
-        with open( Path(__file__).resolve().parent / "menu_data.json", "r" ) as f:
+        with open( data_path, "r" ) as f:
             self.items = json.load(f)
 
     def has_item(self, item_name):
