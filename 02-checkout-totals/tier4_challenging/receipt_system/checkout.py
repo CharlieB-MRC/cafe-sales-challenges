@@ -70,6 +70,9 @@ class Checkout(object):
         Return the final total, rounded to 2 decimal places.
         """
         subtotal = self.cart.get_subtotal()
+        if self.is_loyalty_member:
+            subtotal *= 0.9
+        
         ...
 
     def generate_receipt(self):
